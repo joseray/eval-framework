@@ -1,0 +1,108 @@
+{
+  "document_id": "sov_acme_properties",
+  "doc_type": "sov",
+  "extraction": {
+    "insured_name": "Acme Properties LLC",
+    "policy_number": "SPP-2025-CT-44891",
+    "carrier": "Hartford Financial Services",
+    "effective_date": "2025-03-01",
+    "expiration_date": "2026-03-01",
+    "properties": [
+      {
+        "address": "101 Main Street",
+        "city": "Hartford",
+        "state": "CT",
+        "zip_code": "06103",
+        "building_value": 9000000.00,
+        "contents_value": 2500000.00,
+        "business_income_value": 1000000.00,
+        "total_insured_value": 12500000.00,
+        "construction_type": "fire-resistive",
+        "year_built": 1998,
+        "square_footage": 82000,
+        "occupancy": "office"
+      },
+      {
+        "address": "450 Park Avenue, Suite 300",
+        "city": "Stamford",
+        "state": "CT",
+        "zip_code": "06901",
+        "building_value": 6500000.00,
+        "contents_value": 1500000.00,
+        "business_income_value": 750000.00,
+        "total_insured_value": 8750000.00,
+        "construction_type": "masonry",
+        "year_built": 1985,
+        "square_footage": 54000,
+        "occupancy": "retail"
+      },
+      {
+        "address": "220 West 47th Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10036",
+        "building_value": 8000000.00,
+        "contents_value": 2000000.00,
+        "business_income_value": 1000000.00,
+        "total_insured_value": 11000000.00,
+        "construction_type": "fire-resistive",
+        "year_built": 2004,
+        "square_footage": 68000,
+        "occupancy": "office"
+      },
+      {
+        "address": "15 Maple Drive",
+        "city": "White Plains",
+        "state": "NY",
+        "zip_code": "10605",
+        "building_value": 3200000.00,
+        "contents_value": 1000000.00,
+        "business_income_value": 300000.00,
+        "total_insured_value": 4500000.00,
+        "construction_type": "frame",
+        "year_built": 1978,
+        "square_footage": 41000,
+        "occupancy": "warehouse"
+      },
+      {
+        "address": "800 Raritan Avenue",
+        "city": "Edison",
+        "state": "NJ",
+        "zip_code": "08817",
+        "building_value": 4800000.00,
+        "contents_value": 1400000.00,
+        "business_income_value": 300000.00,
+        "total_insured_value": 6500000.00,
+        "construction_type": "masonry",
+        "year_built": 1992,
+        "square_footage": 58000,
+        "occupancy": "warehouse"
+      },
+      {
+        "address": "120 River Road",
+        "city": "Jersey City",
+        "state": "NJ",
+        "zip_code": "07310",
+        "building_value": 2800000.00,
+        "contents_value": 900000.00,
+        "business_income_value": 300000.00,
+        "total_insured_value": 4000000.00,
+        "construction_type": "fire-resistive",
+        "year_built": 2011,
+        "square_footage": "unknown",
+        "occupancy": "mixed-use"
+      }
+    ],
+    "total_tiv": 47250000.00,
+    "currency": "USD"
+  },
+  "partial_truth_fields": [
+    {
+      "property_index": 5,
+      "field": "square_footage",
+      "status": "unknown",
+      "reason": "Source SOV lists 'see attached schedule' for 120 River Road. The attached schedule was not provided with the broker submission. Treat any model-extracted value as unverified."
+    }
+  ],
+  "notes": "Ground truth manually verified. TIV cross-checked against property schedule sum. One property has a partial-truth field (see partial_truth_fields)."
+}

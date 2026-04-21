@@ -1,0 +1,35 @@
+{
+  "document_id": "sov_keystone_reit",
+  "doc_type": "sov",
+  "extraction": {
+    "insured_name": "Keystone REIT Holdings Trust",
+    "policy_number": "XLC-CP-2025-MULTI-0412",
+    "carrier": "XL Catlin Commercial",
+    "effective_date": "2025-05-01",
+    "expiration_date": "2026-05-01",
+    "properties": [
+      {"address": "1 Embarcadero Center", "city": "San Francisco", "state": "CA", "zip_code": "94111", "building_value": 8200000.0, "contents_value": 2300000.0, "business_income_value": 1000000.0, "total_insured_value": 11500000.0, "construction_type": "fire-resistive", "year_built": 1988, "square_footage": 68000, "occupancy": "office"},
+      {"address": "600 South Grand Avenue", "city": "Los Angeles", "state": "CA", "zip_code": "90017", "building_value": 6600000.0, "contents_value": 1800000.0, "business_income_value": 800000.0, "total_insured_value": 9200000.0, "construction_type": "fire-resistive", "year_built": 1992, "square_footage": 54000, "occupancy": "office"},
+      {"address": "1000 Main Street", "city": "Dallas", "state": "TX", "zip_code": "75202", "building_value": 5500000.0, "contents_value": 1600000.0, "business_income_value": 700000.0, "total_insured_value": 7800000.0, "construction_type": "masonry", "year_built": 2001, "square_footage": 46000, "occupancy": "office"},
+      {"address": "2501 Westheimer Road", "city": "Houston", "state": "TX", "zip_code": "77098", "building_value": 4000000.0, "contents_value": 1200000.0, "business_income_value": 400000.0, "total_insured_value": 5600000.0, "construction_type": "masonry", "year_built": 1995, "square_footage": 38000, "occupancy": "retail"},
+      {"address": "100 NE 1st Avenue", "city": "Miami", "state": "FL", "zip_code": "33132", "building_value": 6100000.0, "contents_value": 1700000.0, "business_income_value": 600000.0, "total_insured_value": 8400000.0, "construction_type": "fire-resistive", "year_built": 2007, "square_footage": 52000, "occupancy": "office"},
+      {"address": "4200 International Parkway", "city": "Orlando", "state": "FL", "zip_code": "32822", "building_value": 3300000.0, "contents_value": 900000.0, "business_income_value": 300000.0, "total_insured_value": 4500000.0, "construction_type": "frame", "year_built": 1986, "square_footage": 41000, "occupancy": "warehouse"},
+      {"address": "233 South Wacker Drive", "city": "Chicago", "state": "IL", "zip_code": "60606", "building_value": 8500000.0, "contents_value": 2500000.0, "business_income_value": 1000000.0, "total_insured_value": 12000000.0, "construction_type": "fire-resistive", "year_built": 1973, "square_footage": 71000, "occupancy": "office"},
+      {"address": "100 State Street", "city": "Boston", "state": "MA", "zip_code": "02109", "building_value": 4800000.0, "contents_value": 1400000.0, "business_income_value": 500000.0, "total_insured_value": 6700000.0, "construction_type": "masonry", "year_built": 1920, "square_footage": 39000, "occupancy": "office"},
+      {"address": "85 Devonshire Street", "city": "Boston", "state": "MA", "zip_code": "02109", "building_value": 2800000.0, "contents_value": 800000.0, "business_income_value": 300000.0, "total_insured_value": 3900000.0, "construction_type": "masonry", "year_built": 1915, "square_footage": 26000, "occupancy": "office"},
+      {"address": "1001 17th Street", "city": "Denver", "state": "CO", "zip_code": "80202", "building_value": 3800000.0, "contents_value": 1100000.0, "business_income_value": 400000.0, "total_insured_value": 5300000.0, "construction_type": "fire-resistive", "year_built": 2003, "square_footage": 35000, "occupancy": "office"},
+      {"address": "201 East Las Colinas Boulevard", "city": "Irving", "state": "TX", "zip_code": "75039", "building_value": 2900000.0, "contents_value": 900000.0, "business_income_value": 300000.0, "total_insured_value": 4100000.0, "construction_type": "frame", "year_built": 1989, "square_footage": 29000, "occupancy": "warehouse"},
+      {"address": "900 Brickell Avenue", "city": "Miami", "state": "FL", "zip_code": "33131", "building_value": 4500000.0, "contents_value": 1300000.0, "business_income_value": 400000.0, "total_insured_value": 6200000.0, "construction_type": "fire-resistive", "year_built": 2010, "square_footage": 37000, "occupancy": "retail"},
+      {"address": "515 North State Street", "city": "Chicago", "state": "IL", "zip_code": "60654", "building_value": 2600000.0, "contents_value": 750000.0, "business_income_value": 250000.0, "total_insured_value": 3600000.0, "construction_type": "masonry", "year_built": 1981, "square_footage": 24000, "occupancy": "mixed-use"},
+      {"address": "225 Franklin Street", "city": "Boston", "state": "MA", "zip_code": "02110", "building_value": 1700000.0, "contents_value": 500000.0, "business_income_value": 200000.0, "total_insured_value": 2400000.0, "construction_type": "masonry", "year_built": 1962, "square_footage": 16000, "occupancy": "retail"},
+      {"address": "1200 17th Street", "city": "Denver", "state": "CO", "zip_code": "80202", "building_value": 850000.0, "contents_value": 250000.0, "business_income_value": 100000.0, "total_insured_value": 1200000.0, "construction_type": "frame", "year_built": 1978, "square_footage": 9000, "occupancy": "retail"}
+    ],
+    "total_tiv": 92400000.00,
+    "currency": "USD"
+  },
+  "ground_truth_flags": {
+    "toronto_branch_excluded": "A footnote in the source SOV lists '333 Bay St, Toronto ON' valued at CAD 4,200,000. This is excluded from total_tiv per the insured's placement: the Toronto property is covered under a separate Canadian policy. Any extraction that rolls the Toronto value into total_tiv is incorrect (or at minimum, needs FX conversion and separate accounting).",
+    "duplicate_location_7": "233 South Wacker Drive (Chicago) appears twice in the raw_text — once at Location 7 in the main schedule and once as 'Location 7a' in the amendment addendum. These refer to the same property. Ground truth lists it exactly once."
+  },
+  "notes": "15 unique properties, USD only, total_tiv sums across the schedule. See ground_truth_flags for the two adversarial edge cases."
+}

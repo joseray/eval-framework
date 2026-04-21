@@ -1,0 +1,38 @@
+{
+  "document_id": "binder_travelers_temp",
+  "doc_type": "binder",
+  "extraction": {
+    "insured_name": "Riverside Logistics LLC",
+    "producer": "Riverside Commercial Insurance Group",
+    "binder_number": "BND-TRV-2025-0312",
+    "binding_authority_reference": "Travelers Binding Authority Agreement TBA-2024-44",
+    "carrier": "The Travelers Indemnity Company",
+    "binder_effective_date": "2025-03-12",
+    "binder_expiration_date": "2025-04-11",
+    "coverages": [
+      {
+        "coverage_type": "general_liability",
+        "policy_number": "TRV-GL-2025-8801-BND",
+        "carrier": "The Travelers Indemnity Company",
+        "effective_date": "2025-03-12",
+        "expiration_date": "2025-04-11",
+        "each_occurrence_limit": 1000000.00,
+        "general_aggregate_limit": 2000000.00,
+        "products_completed_ops": 2000000.00
+      },
+      {
+        "coverage_type": "auto",
+        "policy_number": "TRV-CA-2025-8801-BND",
+        "carrier": "The Travelers Indemnity Company",
+        "effective_date": "2025-03-12",
+        "expiration_date": "2025-04-11",
+        "each_occurrence_limit": 1000000.00,
+        "general_aggregate_limit": null,
+        "products_completed_ops": null
+      }
+    ],
+    "anticipated_policy_number": "TRV-CP-2025-8801",
+    "description_of_operations": "Newly acquired subsidiary; 30-day binder pending full policy issuance. Operations: third-party logistics, last-mile delivery, and small-package warehousing. Certificate holder Metro Development Partners named as additional insured on GL."
+  },
+  "notes": "Temporary 30-day binder. Any extraction where binder_expiration_date < binder_effective_date is chronologically invalid regardless of value-level match."
+}
