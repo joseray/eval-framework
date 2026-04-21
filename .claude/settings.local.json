@@ -15,7 +15,9 @@
       "Bash(python3 -m pytest projects/docextract/tests/test_model_comparison.py -v --tb=short -k \"coi_hartford\")",
       "Bash(python3 -m pytest projects/docextract/tests/test_extraction_accuracy.py -v --tb=short)",
       "Bash(time python3 *)",
-      "Bash(python3 -m pytest tests/ -q)"
+      "Bash(python3 -m pytest tests/ -q)",
+      "Bash(git merge *)",
+      "Bash(git push *)"
     ]
   }
 }
