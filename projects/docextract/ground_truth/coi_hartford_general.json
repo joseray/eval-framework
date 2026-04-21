@@ -1,0 +1,53 @@
+{
+  "document_id": "coi_hartford_general",
+  "doc_type": "coi",
+  "extraction": {
+    "certificate_holder": "Westfield Commercial Management LLC",
+    "insured_name": "Northeast Contractors Inc.",
+    "producer": "Beacon Hill Insurance Brokers",
+    "coverages": [
+      {
+        "coverage_type": "general_liability",
+        "policy_number": "HAR-GL-2024-8847",
+        "carrier": "Hartford Financial Services",
+        "effective_date": "2024-06-01",
+        "expiration_date": "2025-06-01",
+        "each_occurrence_limit": 1000000.00,
+        "general_aggregate_limit": 2000000.00,
+        "products_completed_ops": 2000000.00
+      },
+      {
+        "coverage_type": "auto",
+        "policy_number": "HAR-BA-2024-8847",
+        "carrier": "Hartford Financial Services",
+        "effective_date": "2024-06-01",
+        "expiration_date": "2025-06-01",
+        "each_occurrence_limit": 1000000.00,
+        "general_aggregate_limit": null,
+        "products_completed_ops": null
+      },
+      {
+        "coverage_type": "umbrella",
+        "policy_number": "HAR-UL-2024-3321",
+        "carrier": "Hartford Financial Services",
+        "effective_date": "2024-06-01",
+        "expiration_date": "2025-06-01",
+        "each_occurrence_limit": 5000000.00,
+        "general_aggregate_limit": 5000000.00,
+        "products_completed_ops": null
+      },
+      {
+        "coverage_type": "workers_comp",
+        "policy_number": "HAR-WC-2024-4455",
+        "carrier": "Hartford Financial Services",
+        "effective_date": "2024-06-01",
+        "expiration_date": "2025-06-01",
+        "each_occurrence_limit": 1000000.00,
+        "general_aggregate_limit": null,
+        "products_completed_ops": null
+      }
+    ],
+    "description_of_operations": "General contracting services for commercial build-outs at 88 Westfield Plaza. Certificate holder is named as additional insured with respect to operations performed by the insured."
+  },
+  "notes": "Standard ACORD 25. All four coverages active and unexpired as of valuation."
+}

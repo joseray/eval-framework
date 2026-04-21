@@ -1,0 +1,98 @@
+{
+  "document_id": "loss_run_nationwide",
+  "doc_type": "loss_run",
+  "extraction": {
+    "insured_name": "Summit Property Management",
+    "carrier": "Nationwide Insurance",
+    "policy_number": "NAT-CP-2023-991022",
+    "policy_period": "01/15/2023 - 01/15/2026",
+    "policy_effective_date": "2023-01-15",
+    "valuation_date": "2026-02-28",
+    "claims": [
+      {
+        "claim_number": "CLM-2023-001",
+        "date_of_loss": "2023-03-14",
+        "claimant": "Rivera, Daniela",
+        "claim_type": "liability",
+        "status": "closed",
+        "paid_amount": 35000.00,
+        "reserved_amount": 0.00,
+        "total_incurred": 35000.00
+      },
+      {
+        "claim_number": "CLM-2023-014",
+        "date_of_loss": "2023-06-02",
+        "claimant": null,
+        "claim_type": "property",
+        "status": "closed",
+        "paid_amount": 48500.00,
+        "reserved_amount": 0.00,
+        "total_incurred": 48500.00
+      },
+      {
+        "claim_number": "CLM-2023-027",
+        "date_of_loss": "2023-09-21",
+        "claimant": "Okafor, Samuel",
+        "claim_type": "auto",
+        "status": "closed",
+        "paid_amount": 8250.00,
+        "reserved_amount": 0.00,
+        "total_incurred": 8250.00
+      },
+      {
+        "claim_number": "CLM-2024-003",
+        "date_of_loss": "2024-02-08",
+        "claimant": "Nguyen, Thao",
+        "claim_type": "workers_comp",
+        "status": "closed",
+        "paid_amount": 72000.00,
+        "reserved_amount": 0.00,
+        "total_incurred": 72000.00
+      },
+      {
+        "claim_number": "CLM-2024-011",
+        "date_of_loss": "2024-05-17",
+        "claimant": null,
+        "claim_type": "property",
+        "status": "closed",
+        "paid_amount": 95000.00,
+        "reserved_amount": 0.00,
+        "total_incurred": 95000.00
+      },
+      {
+        "claim_number": "CLM-2024-022",
+        "date_of_loss": "2024-08-30",
+        "claimant": "Fleet vehicle #4412",
+        "claim_type": "auto",
+        "status": "closed",
+        "paid_amount": 16500.00,
+        "reserved_amount": 0.00,
+        "total_incurred": 16500.00
+      },
+      {
+        "claim_number": "CLM-2024-035",
+        "date_of_loss": "2024-11-12",
+        "claimant": "Hollister, Margaret",
+        "claim_type": "liability",
+        "status": "open",
+        "paid_amount": 42500.00,
+        "reserved_amount": 67450.00,
+        "total_incurred": 109950.00
+      },
+      {
+        "claim_number": "CLM-2025-002",
+        "date_of_loss": "2025-01-28",
+        "claimant": "Alvarez, Luis",
+        "claim_type": "workers_comp",
+        "status": "reserved",
+        "paid_amount": 25000.00,
+        "reserved_amount": 77000.00,
+        "total_incurred": 102000.00
+      }
+    ],
+    "total_paid": 342750.00,
+    "total_incurred": 487200.00,
+    "loss_ratio": 0.672
+  },
+  "notes": "Ground truth manually verified. Loss ratio computed against total earned premium of $725,000 over the 3-year policy period."
+}

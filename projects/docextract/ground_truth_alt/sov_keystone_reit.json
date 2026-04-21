@@ -1,0 +1,17 @@
+{
+  "document_id": "sov_keystone_reit",
+  "doc_type": "sov",
+  "alt_label": true,
+  "extraction": {
+    "insured_name": "Keystone REIT Holdings Trust",
+    "policy_number": "XLC-CP-2025-MULTI-0412",
+    "carrier": "XL Catlin Commercial",
+    "effective_date": "2025-05-01",
+    "expiration_date": "2026-05-01",
+    "total_tiv": 96600000.00,
+    "currency": "USD"
+  },
+  "disagrees_with_primary_on": ["total_tiv"],
+  "rationale": "Alt labeler rolled the Toronto footnote (CAD 4,200,000) into total_tiv at a 1:1 FX assumption, producing 96.6M vs. the primary label's 92.4M USD-only total. Both are defensible readings of the source document; the primary treats the Toronto row as scope-excluded. This is intentional — eval frameworks should be able to express label uncertainty rather than treating one labeling as absolute truth.",
+  "notes": "Only the differing field is included here. Defer to ground_truth/ for any field not listed under disagrees_with_primary_on."
+}

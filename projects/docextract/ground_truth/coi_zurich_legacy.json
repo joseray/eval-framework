@@ -1,0 +1,43 @@
+{
+  "document_id": "coi_zurich_legacy",
+  "doc_type": "coi",
+  "extraction": {
+    "certificate_holder": "Atlantic Storage Trust",
+    "insured_name": "Harbor Logistics Group LLC",
+    "producer": "Seaboard Commercial Insurance Brokers",
+    "coverages": [
+      {
+        "coverage_type": "general_liability",
+        "policy_number": "ZUR-GL-2022-4412",
+        "carrier": "Zurich North America",
+        "effective_date": "2022-09-01",
+        "expiration_date": "2023-09-01",
+        "each_occurrence_limit": 1000000.00,
+        "general_aggregate_limit": 2000000.00,
+        "products_completed_ops": 1000000.00
+      },
+      {
+        "coverage_type": "auto",
+        "policy_number": "ZUR-BA-2022-4412",
+        "carrier": "Zurich North America",
+        "effective_date": "2022-09-01",
+        "expiration_date": "2023-09-01",
+        "each_occurrence_limit": 1000000.00,
+        "general_aggregate_limit": null,
+        "products_completed_ops": null
+      },
+      {
+        "coverage_type": "umbrella",
+        "policy_number": "ZUR-UM-2022-9981",
+        "carrier": "Zurich North America",
+        "effective_date": "2022-09-01",
+        "expiration_date": "2023-09-01",
+        "each_occurrence_limit": 5000000.00,
+        "general_aggregate_limit": 5000000.00,
+        "products_completed_ops": null
+      }
+    ],
+    "description_of_operations": "Third-party logistics services — warehousing, pick-and-pack, and LTL transportation. Certificate holder named as additional insured on GL and auto per written contract between Harbor Logistics Group LLC and Atlantic Storage Trust dated 2022-08-15."
+  },
+  "notes": "Older ACORD 25 (2010/05) layout. Raw text uses legacy limit labels (e.g., 'BI/PD Combined' in lieu of modern occurrence/aggregate split) — the extraction pipeline must canonicalize to the modern field names. Coverages list has exactly 3 entries; any 'cyber' coverage line in extraction output is hallucinated and must be rejected by precision checks."
+}

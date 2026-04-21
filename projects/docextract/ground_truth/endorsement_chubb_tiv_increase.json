@@ -1,0 +1,17 @@
+{
+  "document_id": "endorsement_chubb_tiv_increase",
+  "doc_type": "endorsement",
+  "extraction": {
+    "insured_name": "Pinnacle Warehousing Trust",
+    "policy_number": "CHB-CF-2024-55810",
+    "carrier": "Chubb Commercial Insurance",
+    "endorsement_number": "003",
+    "endorsement_effective_date": "2025-04-01",
+    "change_type": "change_limit",
+    "affected_field": "blanket_building_limit",
+    "old_value": "$45,000,000",
+    "new_value": "$53,000,000",
+    "premium_delta": 12450.00
+  },
+  "notes": "Blanket building limit endorsement raising coverage by $8M effective 2025-04-01. Additional premium $12,450 fully earned at inception."
+}

@@ -1,0 +1,43 @@
+{
+  "document_id": "loss_run_libertymutual",
+  "doc_type": "loss_run",
+  "extraction": {
+    "insured_name": "Crescent Industrial Holdings Inc.",
+    "carrier": "Liberty Mutual Insurance",
+    "policy_number": "LM-CP-2021-887412",
+    "policy_period": "01/01/2021 - 01/01/2026",
+    "policy_effective_date": "2021-01-01",
+    "valuation_date": "2026-02-28",
+    "claims": [
+      {"claim_number": "CLM-2021-001", "date_of_loss": "2021-02-11", "claimant": "Kowalski, Anna", "claim_type": "liability", "status": "closed", "paid_amount": 28500.00, "reserved_amount": 0.00, "total_incurred": 28500.00},
+      {"claim_number": "CLM-2021-007", "date_of_loss": "2021-04-22", "claimant": null, "claim_type": "property", "status": "closed", "paid_amount": 42000.00, "reserved_amount": 0.00, "total_incurred": 42000.00},
+      {"claim_number": "CLM-2021-014", "date_of_loss": "2021-07-08", "claimant": "Bennett, Craig", "claim_type": "auto", "status": "closed", "paid_amount": 12400.00, "reserved_amount": 0.00, "total_incurred": 12400.00},
+      {"claim_number": "CLM-2021-022", "date_of_loss": "2021-09-15", "claimant": "(subrogation recovery)", "claim_type": "property", "status": "closed", "paid_amount": -8200.00, "reserved_amount": 0.00, "total_incurred": -8200.00},
+      {"claim_number": "CLM-2021-031", "date_of_loss": "2021-11-30", "claimant": "Patel, Rohan", "claim_type": "workers_comp", "status": "closed", "paid_amount": 9800.00, "reserved_amount": 0.00, "total_incurred": 9800.00},
+      {"claim_number": "CLM-2022-003", "date_of_loss": "2022-01-18", "claimant": null, "claim_type": "property", "status": "closed", "paid_amount": 118000.00, "reserved_amount": 0.00, "total_incurred": 118000.00},
+      {"claim_number": "CLM-2022-012", "date_of_loss": "2022-03-26", "claimant": "Vargas, Isabel", "claim_type": "workers_comp", "status": "closed", "paid_amount": 54000.00, "reserved_amount": 0.00, "total_incurred": 54000.00},
+      {"claim_number": "CLM-2022-019", "date_of_loss": "2022-05-14", "claimant": "Hollis, Gregory", "claim_type": "liability", "status": "closed", "paid_amount": 22500.00, "reserved_amount": 0.00, "total_incurred": 22500.00},
+      {"claim_number": "CLM-2022-027", "date_of_loss": "2022-08-02", "claimant": "(subrogation recovery - fleet)", "claim_type": "auto", "status": "closed", "paid_amount": -15000.00, "reserved_amount": 0.00, "total_incurred": -15000.00},
+      {"claim_number": "CLM-2022-034", "date_of_loss": "2022-10-19", "claimant": null, "claim_type": "property", "status": "closed", "paid_amount": 36800.00, "reserved_amount": 0.00, "total_incurred": 36800.00},
+      {"claim_number": "CLM-2023-004", "date_of_loss": "2023-02-07", "claimant": "Jensen, Marta", "claim_type": "liability", "status": "closed", "paid_amount": 17200.00, "reserved_amount": 0.00, "total_incurred": 17200.00},
+      {"claim_number": "CLM-2023-013", "date_of_loss": "2023-04-25", "claimant": "(subrogation recovery)", "claim_type": "property", "status": "closed", "paid_amount": -22000.00, "reserved_amount": 0.00, "total_incurred": -22000.00},
+      {"claim_number": "CLM-2023-024", "date_of_loss": "2023-07-11", "claimant": "Okonkwo, Daniel", "claim_type": "workers_comp", "status": "reopened", "paid_amount": 48000.00, "reserved_amount": 15000.00, "total_incurred": 63000.00},
+      {"claim_number": "CLM-2023-031", "date_of_loss": "2023-09-28", "claimant": null, "claim_type": "property", "status": "closed", "paid_amount": 8500.00, "reserved_amount": 0.00, "total_incurred": 8500.00},
+      {"claim_number": "CLM-2023-042", "date_of_loss": "2023-12-03", "claimant": "Fleet vehicle #2208", "claim_type": "auto", "status": "closed", "paid_amount": 6100.00, "reserved_amount": 0.00, "total_incurred": 6100.00},
+      {"claim_number": "CLM-2024-008", "date_of_loss": "2024-03-15", "claimant": "Rodriguez, Elena", "claim_type": "liability", "status": "open", "paid_amount": 85000.00, "reserved_amount": 215000.00, "total_incurred": 300000.00},
+      {"claim_number": "CLM-2024-017", "date_of_loss": "2024-05-22", "claimant": "Chen, Wei", "claim_type": "workers_comp", "status": "open", "paid_amount": 32000.00, "reserved_amount": 88000.00, "total_incurred": 120000.00},
+      {"claim_number": "CLM-2024-025", "date_of_loss": "2024-08-14", "claimant": null, "claim_type": "property", "status": "closed", "paid_amount": 19200.00, "reserved_amount": 0.00, "total_incurred": 19200.00},
+      {"claim_number": "CLM-2024-033", "date_of_loss": "2024-10-30", "claimant": "Fleet vehicle #3017", "claim_type": "auto", "status": "closed", "paid_amount": 11400.00, "reserved_amount": 0.00, "total_incurred": 11400.00},
+      {"claim_number": "CLM-2024-041", "date_of_loss": "2024-12-19", "claimant": "Mbeki, Nomvula", "claim_type": "liability", "status": "reopened", "paid_amount": 39500.00, "reserved_amount": 45000.00, "total_incurred": 84500.00},
+      {"claim_number": "CLM-2025-003", "date_of_loss": "2025-01-24", "claimant": null, "claim_type": "property", "status": "reserved", "paid_amount": 15000.00, "reserved_amount": 62000.00, "total_incurred": 77000.00},
+      {"claim_number": "CLM-2025-011", "date_of_loss": "2025-03-09", "claimant": "Donnelly, Patricia", "claim_type": "liability", "status": "open", "paid_amount": 18000.00, "reserved_amount": 35000.00, "total_incurred": 53000.00},
+      {"claim_number": "CLM-2025-019", "date_of_loss": "2025-05-17", "claimant": "Ramirez, Sofia", "claim_type": "workers_comp", "status": "reserved", "paid_amount": 22500.00, "reserved_amount": 48000.00, "total_incurred": 70500.00},
+      {"claim_number": "CLM-2025-026", "date_of_loss": "2025-07-28", "claimant": "Fleet vehicle #4120", "claim_type": "auto", "status": "open", "paid_amount": 8900.00, "reserved_amount": 14500.00, "total_incurred": 23400.00}
+    ],
+    "total_paid": 610100.00,
+    "total_recoveries": 45200.00,
+    "total_incurred": 1132600.00,
+    "loss_ratio": 0.503
+  },
+  "notes": "24 claims over 5 policy years. Three subrogation recoveries appear as negative paid_amount values (CLM-2021-022, CLM-2022-027, CLM-2023-013); total_recoveries aggregates their absolute value. Two claims are reopened (CLM-2023-024, CLM-2024-041). Loss ratio is against total earned premium of $2,250,000."
+}

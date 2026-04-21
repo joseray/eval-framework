@@ -1,0 +1,43 @@
+{
+  "document_id": "coi_travelers_umbrella",
+  "doc_type": "coi",
+  "extraction": {
+    "certificate_holder": "Metro Development Partners",
+    "insured_name": "Apex Building Services Corp.",
+    "producer": "Riverside Commercial Insurance Group",
+    "coverages": [
+      {
+        "coverage_type": "general_liability",
+        "policy_number": "TRV-GL-2025-1122",
+        "carrier": "The Travelers Indemnity Company",
+        "effective_date": "2025-01-01",
+        "expiration_date": "2026-01-01",
+        "each_occurrence_limit": 2000000.00,
+        "general_aggregate_limit": 4000000.00,
+        "products_completed_ops": 4000000.00
+      },
+      {
+        "coverage_type": "auto",
+        "policy_number": "TRV-CA-2025-1122",
+        "carrier": "The Travelers Indemnity Company",
+        "effective_date": "2025-01-01",
+        "expiration_date": "2026-01-01",
+        "each_occurrence_limit": 1000000.00,
+        "general_aggregate_limit": null,
+        "products_completed_ops": null
+      },
+      {
+        "coverage_type": "umbrella",
+        "policy_number": "TRV-UM-2025-7788",
+        "carrier": "The Travelers Indemnity Company",
+        "effective_date": "2025-01-01",
+        "expiration_date": "2026-01-01",
+        "each_occurrence_limit": 10000000.00,
+        "general_aggregate_limit": 10000000.00,
+        "products_completed_ops": null
+      }
+    ],
+    "description_of_operations": "Facility maintenance, janitorial, and grounds-keeping services performed at Metro Development Partners properties. Certificate holder named as additional insured on GL and umbrella on a primary and non-contributory basis."
+  },
+  "notes": "ACORD 25 with an umbrella layer. Note carrier uses full legal name on certificate; short-form 'Travelers' also appears on producer email footer."
+}

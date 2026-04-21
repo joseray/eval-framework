@@ -1,0 +1,72 @@
+{
+  "document_id": "sov_pacific_realty",
+  "doc_type": "sov",
+  "extraction": {
+    "insured_name": "Pacific Realty Group Inc.",
+    "policy_number": "ZRH-2025-CA-77230",
+    "carrier": "Zurich Insurance",
+    "effective_date": "2025-07-15",
+    "expiration_date": "2026-07-15",
+    "properties": [
+      {
+        "address": "1500 Wilshire Boulevard",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90017",
+        "building_value": 9000000.00,
+        "contents_value": 2800000.00,
+        "business_income_value": 1000000.00,
+        "total_insured_value": 12800000.00,
+        "construction_type": "fire-resistive",
+        "year_built": 2006,
+        "square_footage": 74000,
+        "occupancy": "office"
+      },
+      {
+        "address": "600 California Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94108",
+        "building_value": 7000000.00,
+        "contents_value": 2000000.00,
+        "business_income_value": 500000.00,
+        "total_insured_value": 9500000.00,
+        "construction_type": "fire-resistive",
+        "year_built": 1999,
+        "square_footage": 61000,
+        "occupancy": "office"
+      },
+      {
+        "address": "2200 NW Glisan Street",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97210",
+        "building_value": 4000000.00,
+        "contents_value": 1200000.00,
+        "business_income_value": 300000.00,
+        "total_insured_value": 5500000.00,
+        "construction_type": "masonry",
+        "year_built": 1988,
+        "square_footage": 46000,
+        "occupancy": "retail"
+      },
+      {
+        "address": "1250 4th Avenue",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "building_value": 2800000.00,
+        "contents_value": 900000.00,
+        "business_income_value": 300000.00,
+        "total_insured_value": 4000000.00,
+        "construction_type": "frame",
+        "year_built": null,
+        "square_footage": null,
+        "occupancy": "mixed-use"
+      }
+    ],
+    "total_tiv": 31800000.00,
+    "currency": "USD"
+  },
+  "notes": "Ground truth manually verified. One property (Seattle) missing year_built and square_footage in source SOV."
+}

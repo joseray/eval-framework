@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest tests/ -v --tb=short)",
+      "Bash(python3 -m pytest tests/ -v --tb=short)",
+      "Bash(pip install *)",
+      "Bash(git clone *)",
+      "Bash(python -c ' *)",
+      "Bash(python3 -c ' *)",
+      "Bash(cp -r /Users/joseluiscardenas/Documents/docextract-eval/vendor/docextract-eval/data/ground_truth /Users/joseluiscardenas/Documents/docextract-eval/projects/docextract/ground_truth)",
+      "Bash(cp -r /Users/joseluiscardenas/Documents/docextract-eval/vendor/docextract-eval/data/ground_truth_alt /Users/joseluiscardenas/Documents/docextract-eval/projects/docextract/ground_truth_alt)",
+      "Bash(python3 -m pytest projects/docextract/tests/test_api_health.py -v --tb=short)",
+      "Bash(python3 -m pytest projects/docextract/tests/test_edge_cases.py projects/docextract/tests/test_reseed_resilience.py -v --tb=short)",
+      "Bash(python3 -m pytest projects/docextract/tests/ -v --tb=short)",
+      "Bash(python3 -m pytest projects/docextract/tests/test_model_comparison.py -v --tb=short -k \"coi_hartford\")",
+      "Bash(python3 -m pytest projects/docextract/tests/test_extraction_accuracy.py -v --tb=short)",
+      "Bash(time python3 *)",
+      "Bash(python3 -m pytest tests/ -q)"
+    ]
+  }
+}

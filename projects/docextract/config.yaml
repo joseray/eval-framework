@@ -1,0 +1,144 @@
+service:
+  base_url: "http://localhost:8000"
+
+eval:
+  n_runs: 20
+  seed_base: 42000
+  models: ["v1", "v2"]
+
+tolerances:
+  amount: 0.03
+  aggregate: 0.05
+
+thresholds:
+  min_field_accuracy: 0.60
+  max_hallucination_rate: 0.10
+  max_regression_pp: 10.0
+
+ground_truth:
+  directory: "./ground_truth"
+  alt_directory: "./ground_truth_alt"
+
+documents:
+  sov_acme_properties:
+    doc_type: sov
+  sov_pacific_realty:
+    doc_type: sov
+  sov_keystone_reit:
+    doc_type: sov
+    has_alt_label: true
+    disputed_fields: ["total_tiv"]
+  coi_hartford_general:
+    doc_type: coi
+  coi_travelers_umbrella:
+    doc_type: coi
+  coi_zurich_legacy:
+    doc_type: coi
+  coi_unlabeled_mystery:
+    doc_type: coi
+    has_ground_truth: false
+  loss_run_nationwide:
+    doc_type: loss_run
+  loss_run_libertymutual:
+    doc_type: loss_run
+  endorsement_chubb_tiv_increase:
+    doc_type: endorsement
+  binder_travelers_temp:
+    doc_type: binder
+
+field_specs:
+  sov:
+    fields:
+      insured_name: { match: fuzzy }
+      policy_number: { match: exact }
+      carrier: { match: carrier }
+      effective_date: { match: date }
+      expiration_date: { match: date }
+      total_tiv: { match: amount, tolerance: 0.05 }
+    nested:
+      properties:
+        match_by: index
+        fields:
+          address: { match: fuzzy }
+          city: { match: fuzzy }
+          state: { match: fuzzy }
+          zip_code: { match: fuzzy }
+          building_value: { match: amount }
+          contents_value: { match: amount }
+          business_income_value: { match: amount }
+          total_insured_value: { match: amount, tolerance: 0.05 }
+          construction_type: { match: exact }
+          square_footage: { match: amount, tolerance: 0.05, skip_if: unknown }
+    invariants:
+      - component_sum
+      - total_tiv_sum
+
+  coi:
+    fields:
+      certificate_holder: { match: fuzzy }
+      insured_name: { match: fuzzy }
+      producer: { match: fuzzy, optional: true }
+    nested:
+      coverages:
+        match_by: coverage_type
+        fields:
+          policy_number: { match: exact }
+          carrier: { match: carrier }
+          effective_date: { match: date }
+          expiration_date: { match: date }
+          each_occurrence_limit: { match: amount }
+          general_aggregate_limit: { match: amount }
+          products_completed_ops: { match: amount }
+    invariants:
+      - duplicate_coverage
+      - date_ordering
+      - phantom_coverage
+
+  loss_run:
+    fields:
+      insured_name: { match: fuzzy }
+      carrier: { match: carrier }
+      policy_number: { match: exact }
+      policy_effective_date: { match: date }
+      valuation_date: { match: date }
+      total_paid: { match: amount, tolerance: 0.05 }
+      total_incurred: { match: amount, tolerance: 0.05 }
+      total_recoveries: { match: amount, tolerance: 0.05 }
+    nested:
+      claims:
+        match_by: claim_number
+        fields:
+          paid_amount: { match: amount }
+          reserved_amount: { match: amount }
+          total_incurred: { match: amount }
+          status: { match: exact }
+    invariants:
+      - incurred_sum
+      - total_paid_sum
+      - total_incurred_sum
+      - closed_reserves_zero
+      - unit_drift_detection
+
+  endorsement:
+    fields:
+      insured_name: { match: fuzzy }
+      policy_number: { match: exact }
+      carrier: { match: carrier }
+      endorsement_number: { match: exact }
+      endorsement_effective_date: { match: date }
+      premium_delta: { match: amount }
+    invariants: []
+
+  binder:
+    fields:
+      insured_name: { match: fuzzy }
+      carrier: { match: carrier }
+      binder_number: { match: exact }
+      binder_effective_date: { match: date }
+      binder_expiration_date: { match: date }
+    invariants:
+      - date_ordering
+      - binder_duration
+
+custom_normalizers:
+  carrier: "custom_rules.carrier_names.normalize_carrier"
